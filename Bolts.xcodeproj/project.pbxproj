@@ -43,7 +43,7 @@
 		7C2BF3A31A3A45D200974BEC /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5319900A84000BAE3F /* BFTaskCompletionSource.m */; };
 		7C2BF3A41A3A45D200974BEC /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		7C2BF3A91A3A492E00974BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9C3CEC17DE9DE000427E62 /* Foundation.framework */; };
-		7C2BF3AA1A3A4A1A00974BEC /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5419900A84000BAE3F /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3AC1A3A540300974BEC /* Bolts-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2BF3AB1A3A53B500974BEC /* Bolts-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8103FA6819900A84000BAE3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		8103FA6919900A84000BAE3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		8103FA6A19900A84000BAE3F /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5119900A84000BAE3F /* BFTask.m */; };
@@ -153,6 +153,7 @@
 		1EC3019018CDABCE00D06D07 /* AppLinkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLinkTests.m; sourceTree = "<group>"; };
 		7C2BF2D91A3A3C8F00974BEC /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C2BF2DC1A3A3C8F00974BEC /* iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iOS-Info.plist"; path = "Bolts/Resources/iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7C2BF3AB1A3A53B500974BEC /* Bolts-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bolts-iOS.h"; sourceTree = "<group>"; };
 		8103FA4E19900A84000BAE3F /* BFExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFExecutor.h; sourceTree = "<group>"; };
 		8103FA4F19900A84000BAE3F /* BFExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFExecutor.m; sourceTree = "<group>"; };
 		8103FA5019900A84000BAE3F /* BFTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFTask.h; sourceTree = "<group>"; };
@@ -302,6 +303,7 @@
 		8103FA5719900A84000BAE3F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				7C2BF3AB1A3A53B500974BEC /* Bolts-iOS.h */,
 				B242FAB719A567660097ECAE /* BFAppLink_Internal.h */,
 				8103FA5819900A84000BAE3F /* BFAppLink.h */,
 				8103FA5919900A84000BAE3F /* BFAppLink.m */,
@@ -415,7 +417,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C2BF3AA1A3A4A1A00974BEC /* Bolts.h in Headers */,
 				7C2BF2FD1A3A3CC400974BEC /* BoltsVersion.h in Headers */,
 				7C2BF2FF1A3A3CC400974BEC /* BFTask.h in Headers */,
 				7C2BF3001A3A3CC400974BEC /* BFTaskCompletionSource.h in Headers */,
@@ -425,6 +426,7 @@
 				7C2BF38E1A3A41A000974BEC /* BFAppLinkResolving.h in Headers */,
 				7C2BF38F1A3A41A000974BEC /* BFWebViewAppLinkResolver.h in Headers */,
 				7C2BF3901A3A41A000974BEC /* BFAppLinkReturnToRefererController.h in Headers */,
+				7C2BF3AC1A3A540300974BEC /* Bolts-iOS.h in Headers */,
 				7C2BF3911A3A41A000974BEC /* BFAppLinkReturnToRefererView.h in Headers */,
 				7C2BF3931A3A41A000974BEC /* BFAppLinkTarget.h in Headers */,
 				7C2BF3951A3A41A000974BEC /* BFMeasurementEvent.h in Headers */,
@@ -851,6 +853,7 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -890,6 +893,7 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
