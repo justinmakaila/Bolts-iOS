@@ -22,7 +22,6 @@
 		7C2BF2FB1A3A3CB400974BEC /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5319900A84000BAE3F /* BFTaskCompletionSource.m */; };
 		7C2BF2FC1A3A3CB400974BEC /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		7C2BF2FD1A3A3CC400974BEC /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5619900A84000BAE3F /* BoltsVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF2FE1A3A3CC400974BEC /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5419900A84000BAE3F /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2BF2FF1A3A3CC400974BEC /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5019900A84000BAE3F /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2BF3001A3A3CC400974BEC /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5219900A84000BAE3F /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2BF3011A3A3CC400974BEC /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA4E19900A84000BAE3F /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -426,7 +425,6 @@
 			files = (
 				7C2BF3981A3A430D00974BEC /* Bolts-iOS.h in Headers */,
 				7C2BF2FD1A3A3CC400974BEC /* BoltsVersion.h in Headers */,
-				7C2BF2FE1A3A3CC400974BEC /* Bolts.h in Headers */,
 				7C2BF2FF1A3A3CC400974BEC /* BFTask.h in Headers */,
 				7C2BF3001A3A3CC400974BEC /* BFTaskCompletionSource.h in Headers */,
 				7C2BF3011A3A3CC400974BEC /* BFExecutor.h in Headers */,
