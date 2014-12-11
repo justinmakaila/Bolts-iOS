@@ -17,19 +17,6 @@
 		1EC3019118CDABCE00D06D07 /* AppLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3019018CDABCE00D06D07 /* AppLinkTests.m */; };
 		7C2BF2F01A3A3C8F00974BEC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2BF2D91A3A3C8F00974BEC /* Bolts.framework */; };
 		7C2BF2F11A3A3C8F00974BEC /* Bolts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2BF2D91A3A3C8F00974BEC /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7C2BF2FD1A3A3CC400974BEC /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5619900A84000BAE3F /* BoltsVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF2FF1A3A3CC400974BEC /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5019900A84000BAE3F /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF3001A3A3CC400974BEC /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5219900A84000BAE3F /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF3011A3A3CC400974BEC /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA4E19900A84000BAE3F /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF38C1A3A41A000974BEC /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5819900A84000BAE3F /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF38D1A3A41A000974BEC /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5A19900A84000BAE3F /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF38E1A3A41A000974BEC /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5C19900A84000BAE3F /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF38F1A3A41A000974BEC /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6619900A84000BAE3F /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF3901A3A41A000974BEC /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5D19900A84000BAE3F /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF3911A3A41A000974BEC /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5F19900A84000BAE3F /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF3931A3A41A000974BEC /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6219900A84000BAE3F /* BFAppLinkTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF3951A3A41A000974BEC /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B242FAB819A567660097ECAE /* BFMeasurementEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2BF3971A3A41A000974BEC /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6419900A84000BAE3F /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2BF3991A3A458000974BEC /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5919900A84000BAE3F /* BFAppLink.m */; };
 		7C2BF39A1A3A458000974BEC /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5B19900A84000BAE3F /* BFAppLinkNavigation.m */; };
 		7C2BF39B1A3A458000974BEC /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA6719900A84000BAE3F /* BFWebViewAppLinkResolver.m */; };
@@ -38,12 +25,23 @@
 		7C2BF39E1A3A458000974BEC /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA6319900A84000BAE3F /* BFAppLinkTarget.m */; };
 		7C2BF39F1A3A458000974BEC /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B242FAB919A567660097ECAE /* BFMeasurementEvent.m */; };
 		7C2BF3A01A3A458000974BEC /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA6519900A84000BAE3F /* BFURL.m */; };
-		7C2BF3A11A3A45D200974BEC /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5519900A84000BAE3F /* Bolts.m */; };
 		7C2BF3A21A3A45D200974BEC /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5119900A84000BAE3F /* BFTask.m */; };
 		7C2BF3A31A3A45D200974BEC /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5319900A84000BAE3F /* BFTaskCompletionSource.m */; };
 		7C2BF3A41A3A45D200974BEC /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		7C2BF3A91A3A492E00974BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9C3CEC17DE9DE000427E62 /* Foundation.framework */; };
-		7C2BF3AC1A3A540300974BEC /* Bolts-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2BF3AB1A3A53B500974BEC /* Bolts-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3AF1A3A566B00974BEC /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5019900A84000BAE3F /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3B01A3A566B00974BEC /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5219900A84000BAE3F /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3B11A3A566B00974BEC /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA4E19900A84000BAE3F /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3B31A3A566B00974BEC /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5819900A84000BAE3F /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3B41A3A566B00974BEC /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5A19900A84000BAE3F /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3B51A3A566B00974BEC /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5C19900A84000BAE3F /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3B61A3A566B00974BEC /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6619900A84000BAE3F /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3B71A3A566B00974BEC /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5D19900A84000BAE3F /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3B81A3A566C00974BEC /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5F19900A84000BAE3F /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3B91A3A566C00974BEC /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6219900A84000BAE3F /* BFAppLinkTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3BA1A3A566C00974BEC /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B242FAB819A567660097ECAE /* BFMeasurementEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3BB1A3A566C00974BEC /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6419900A84000BAE3F /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3BC1A3A59F900974BEC /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5419900A84000BAE3F /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8103FA6819900A84000BAE3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		8103FA6919900A84000BAE3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		8103FA6A19900A84000BAE3F /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5119900A84000BAE3F /* BFTask.m */; };
@@ -417,20 +415,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C2BF2FD1A3A3CC400974BEC /* BoltsVersion.h in Headers */,
-				7C2BF2FF1A3A3CC400974BEC /* BFTask.h in Headers */,
-				7C2BF3001A3A3CC400974BEC /* BFTaskCompletionSource.h in Headers */,
-				7C2BF3011A3A3CC400974BEC /* BFExecutor.h in Headers */,
-				7C2BF38C1A3A41A000974BEC /* BFAppLink.h in Headers */,
-				7C2BF38D1A3A41A000974BEC /* BFAppLinkNavigation.h in Headers */,
-				7C2BF38E1A3A41A000974BEC /* BFAppLinkResolving.h in Headers */,
-				7C2BF38F1A3A41A000974BEC /* BFWebViewAppLinkResolver.h in Headers */,
-				7C2BF3901A3A41A000974BEC /* BFAppLinkReturnToRefererController.h in Headers */,
-				7C2BF3AC1A3A540300974BEC /* Bolts-iOS.h in Headers */,
-				7C2BF3911A3A41A000974BEC /* BFAppLinkReturnToRefererView.h in Headers */,
-				7C2BF3931A3A41A000974BEC /* BFAppLinkTarget.h in Headers */,
-				7C2BF3951A3A41A000974BEC /* BFMeasurementEvent.h in Headers */,
-				7C2BF3971A3A41A000974BEC /* BFURL.h in Headers */,
+				7C2BF3BC1A3A59F900974BEC /* Bolts.h in Headers */,
+				7C2BF3AF1A3A566B00974BEC /* BFTask.h in Headers */,
+				7C2BF3B01A3A566B00974BEC /* BFTaskCompletionSource.h in Headers */,
+				7C2BF3B11A3A566B00974BEC /* BFExecutor.h in Headers */,
+				7C2BF3B31A3A566B00974BEC /* BFAppLink.h in Headers */,
+				7C2BF3B41A3A566B00974BEC /* BFAppLinkNavigation.h in Headers */,
+				7C2BF3B51A3A566B00974BEC /* BFAppLinkResolving.h in Headers */,
+				7C2BF3B61A3A566B00974BEC /* BFWebViewAppLinkResolver.h in Headers */,
+				7C2BF3B71A3A566B00974BEC /* BFAppLinkReturnToRefererController.h in Headers */,
+				7C2BF3B81A3A566C00974BEC /* BFAppLinkReturnToRefererView.h in Headers */,
+				7C2BF3B91A3A566C00974BEC /* BFAppLinkTarget.h in Headers */,
+				7C2BF3BA1A3A566C00974BEC /* BFMeasurementEvent.h in Headers */,
+				7C2BF3BB1A3A566C00974BEC /* BFURL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,7 +665,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C2BF3A11A3A45D200974BEC /* Bolts.m in Sources */,
 				7C2BF3A21A3A45D200974BEC /* BFTask.m in Sources */,
 				7C2BF3A31A3A45D200974BEC /* BFTaskCompletionSource.m in Sources */,
 				7C2BF3A41A3A45D200974BEC /* BFExecutor.m in Sources */,
@@ -1068,6 +1064,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -1089,6 +1086,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
