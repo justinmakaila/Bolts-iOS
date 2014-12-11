@@ -11,23 +11,35 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>61C4B9E3B61282127C102C87B46B8CDE985974AE</key>
-		<string>ssh://github.com/BoltsFramework/Bolts-iOS.git</string>
+		<string>https://github.com/BoltsFramework/Bolts-iOS.git</string>
+		<key>A20D666FF4B08EFE53F147818C2D4D17E2242912</key>
+		<string>https://github.com/justinmakaila/facebook-ios-sdk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Bolts.xcodeproj/project.xcworkspace</string>
+	<string>Bolts.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>61C4B9E3B61282127C102C87B46B8CDE985974AE</key>
 		<string>../..</string>
+		<key>A20D666FF4B08EFE53F147818C2D4D17E2242912</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/BoltsFramework/Bolts-iOS.git</string>
+	<string>https://github.com/BoltsFramework/Bolts-iOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>61C4B9E3B61282127C102C87B46B8CDE985974AE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A20D666FF4B08EFE53F147818C2D4D17E2242912</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
