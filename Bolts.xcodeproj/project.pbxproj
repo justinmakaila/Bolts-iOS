@@ -42,6 +42,7 @@
 		7C2BF3BA1A3A566C00974BEC /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B242FAB819A567660097ECAE /* BFMeasurementEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2BF3BB1A3A566C00974BEC /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6419900A84000BAE3F /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2BF3BC1A3A59F900974BEC /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5419900A84000BAE3F /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3BD1A3A5A8400974BEC /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5519900A84000BAE3F /* Bolts.m */; };
 		8103FA6819900A84000BAE3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		8103FA6919900A84000BAE3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		8103FA6A19900A84000BAE3F /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5119900A84000BAE3F /* BFTask.m */; };
@@ -671,6 +672,7 @@
 				7C2BF3991A3A458000974BEC /* BFAppLink.m in Sources */,
 				7C2BF39A1A3A458000974BEC /* BFAppLinkNavigation.m in Sources */,
 				7C2BF39B1A3A458000974BEC /* BFWebViewAppLinkResolver.m in Sources */,
+				7C2BF3BD1A3A5A8400974BEC /* Bolts.m in Sources */,
 				7C2BF39C1A3A458000974BEC /* BFAppLinkReturnToRefererController.m in Sources */,
 				7C2BF39D1A3A458000974BEC /* BFAppLinkReturnToRefererView.m in Sources */,
 				7C2BF39E1A3A458000974BEC /* BFAppLinkTarget.m in Sources */,
