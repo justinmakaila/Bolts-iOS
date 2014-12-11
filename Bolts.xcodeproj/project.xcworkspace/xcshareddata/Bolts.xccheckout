@@ -22,7 +22,7 @@
 		<key>61C4B9E3B61282127C102C87B46B8CDE985974AE</key>
 		<string>../..</string>
 		<key>A20D666FF4B08EFE53F147818C2D4D17E2242912</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/BoltsFramework/Bolts-iOS.git</string>
@@ -38,7 +38,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>A20D666FF4B08EFE53F147818C2D4D17E2242912</string>
 			<key>IDESourceControlWCCName</key>
-			<string>..</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

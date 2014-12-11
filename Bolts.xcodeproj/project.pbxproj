@@ -27,6 +27,16 @@
 		7C2BF2FF1A3A3CC400974BEC /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5019900A84000BAE3F /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2BF3001A3A3CC400974BEC /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5219900A84000BAE3F /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2BF3011A3A3CC400974BEC /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA4E19900A84000BAE3F /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF38C1A3A41A000974BEC /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5819900A84000BAE3F /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF38D1A3A41A000974BEC /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5A19900A84000BAE3F /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF38E1A3A41A000974BEC /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5C19900A84000BAE3F /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF38F1A3A41A000974BEC /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6619900A84000BAE3F /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3901A3A41A000974BEC /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5D19900A84000BAE3F /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3911A3A41A000974BEC /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5F19900A84000BAE3F /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3931A3A41A000974BEC /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6219900A84000BAE3F /* BFAppLinkTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3941A3A41A000974BEC /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B242FAC019A599CD0097ECAE /* BFMeasurementEvent_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3951A3A41A000974BEC /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B242FAB819A567660097ECAE /* BFMeasurementEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF3971A3A41A000974BEC /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6419900A84000BAE3F /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8103FA6819900A84000BAE3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		8103FA6919900A84000BAE3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		8103FA6A19900A84000BAE3F /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5119900A84000BAE3F /* BFTask.m */; };
@@ -421,6 +431,16 @@
 				7C2BF2FF1A3A3CC400974BEC /* BFTask.h in Headers */,
 				7C2BF3001A3A3CC400974BEC /* BFTaskCompletionSource.h in Headers */,
 				7C2BF3011A3A3CC400974BEC /* BFExecutor.h in Headers */,
+				7C2BF38C1A3A41A000974BEC /* BFAppLink.h in Headers */,
+				7C2BF38D1A3A41A000974BEC /* BFAppLinkNavigation.h in Headers */,
+				7C2BF38E1A3A41A000974BEC /* BFAppLinkResolving.h in Headers */,
+				7C2BF38F1A3A41A000974BEC /* BFWebViewAppLinkResolver.h in Headers */,
+				7C2BF3901A3A41A000974BEC /* BFAppLinkReturnToRefererController.h in Headers */,
+				7C2BF3911A3A41A000974BEC /* BFAppLinkReturnToRefererView.h in Headers */,
+				7C2BF3931A3A41A000974BEC /* BFAppLinkTarget.h in Headers */,
+				7C2BF3941A3A41A000974BEC /* BFMeasurementEvent_Internal.h in Headers */,
+				7C2BF3951A3A41A000974BEC /* BFMeasurementEvent.h in Headers */,
+				7C2BF3971A3A41A000974BEC /* BFURL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1164,6 +1184,7 @@
 				7C2BF2F31A3A3C8F00974BEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E8C8EF817F23D1D00E3F1C7 /* Build configuration list for PBXNativeTarget "BoltsTests" */ = {
 			isa = XCConfigurationList;
