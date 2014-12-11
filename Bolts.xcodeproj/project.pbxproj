@@ -152,7 +152,6 @@
 		1EC3019018CDABCE00D06D07 /* AppLinkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLinkTests.m; sourceTree = "<group>"; };
 		7C2BF2D91A3A3C8F00974BEC /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C2BF2DC1A3A3C8F00974BEC /* iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iOS-Info.plist"; path = "Bolts/Resources/iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
-		7C2BF3AB1A3A53B500974BEC /* Bolts-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bolts-iOS.h"; sourceTree = "<group>"; };
 		8103FA4E19900A84000BAE3F /* BFExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFExecutor.h; sourceTree = "<group>"; };
 		8103FA4F19900A84000BAE3F /* BFExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFExecutor.m; sourceTree = "<group>"; };
 		8103FA5019900A84000BAE3F /* BFTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFTask.h; sourceTree = "<group>"; };
@@ -302,7 +301,6 @@
 		8103FA5719900A84000BAE3F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7C2BF3AB1A3A53B500974BEC /* Bolts-iOS.h */,
 				B242FAB719A567660097ECAE /* BFAppLink_Internal.h */,
 				8103FA5819900A84000BAE3F /* BFAppLink.h */,
 				8103FA5919900A84000BAE3F /* BFAppLink.m */,
