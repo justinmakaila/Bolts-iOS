@@ -43,6 +43,7 @@
 		7C2BF3BB1A3A566C00974BEC /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6419900A84000BAE3F /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2BF3BC1A3A59F900974BEC /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5419900A84000BAE3F /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2BF3BD1A3A5A8400974BEC /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5519900A84000BAE3F /* Bolts.m */; };
+		7C6504751A3A7B45003EDFE7 /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5619900A84000BAE3F /* BoltsVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8103FA6819900A84000BAE3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		8103FA6919900A84000BAE3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		8103FA6A19900A84000BAE3F /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5119900A84000BAE3F /* BFTask.m */; };
@@ -414,6 +415,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C6504751A3A7B45003EDFE7 /* BoltsVersion.h in Headers */,
 				7C2BF3BC1A3A59F900974BEC /* Bolts.h in Headers */,
 				7C2BF3AF1A3A566B00974BEC /* BFTask.h in Headers */,
 				7C2BF3B01A3A566B00974BEC /* BFTaskCompletionSource.h in Headers */,
