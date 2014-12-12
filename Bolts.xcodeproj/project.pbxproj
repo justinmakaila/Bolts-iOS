@@ -491,10 +491,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C2BF2F61A3A3C8F00974BEC /* Build configuration list for PBXNativeTarget "Bolts-iOS" */;
 			buildPhases = (
-				7C2BF2D41A3A3C8F00974BEC /* Sources */,
 				7C2BF2D51A3A3C8F00974BEC /* Frameworks */,
+				7C2BF2D41A3A3C8F00974BEC /* Sources */,
 				7C2BF2D61A3A3C8F00974BEC /* Headers */,
-				7C2BF2D71A3A3C8F00974BEC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -626,13 +625,6 @@
 				1EC3016B18CDAA8400D06D07 /* InfoPlist.strings in Resources */,
 				1EC3017318CDAA8400D06D07 /* Images.xcassets in Resources */,
 				1E9BF8DC18EA0CAD00514B1E /* test.html in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C2BF2D71A3A3C8F00974BEC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,8 @@
 
 #import <Foundation/Foundation.h>
 
-@class BFTask;
+//@class BFTask;
+#import "BFTask.h"
 
 /*!
  A BFTaskCompletionSource represents the producer side of tasks.
